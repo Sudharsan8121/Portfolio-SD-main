@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Sudharsan D, Frontend Developer from Madurai, Tamil Nadu">
+  <meta name="keywords"
+    content="Frontend Developer, Web Developer, HTML, CSS, JavaScript, ReactJS, Portfolio, Sudharsan">
+
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Profile.png" alt="Om Kharche" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Om Kharche">SUDHARSAN D</h1>
+
+          <p class="title">Frontend Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sudharsansd8055@gmail.com" class="contact-link">sudharsansd8055@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918525816931" class="contact-link">+91 8525816931</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2000-12-20">20 December 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Madurai, Tamil Nadu</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sudharsan-d-19899027b/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/__sudharsan.__.sd/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Sudharsan8121" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Home</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>My Works</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="home  active" data-page="home">
+
+        <header>
+          <h2 class="h2 article-title">Home</h2>
+        </header>
+
+        <section class="home-text">
+          <p>
+            Hi, I'm Sudharsan D from Madurai — a passionate Front-End Developer with a B.Sc. in Computer Science from
+            NMSSVN College. I've built responsive and user-friendly web applications using HTML, CSS, JavaScript, and
+            ReactJS. I also completed a Front-End Development course at Besant Technologies, gaining hands-on experience
+            in building modern, scalable interfaces. I enjoy creating clean, efficient code and staying updated with the
+            latest web trends.
+          </p>
+
+          <button class="form-btn">
+            <a href="./assets/sudharsan--d.pdf" target="_blank" class="form-btn"><span>Download Resume</span></a>
+
+          </button>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End development</h4>
+
+                <p class="service-item-text">
+                  Frontend Developer skilled in HTML, CSS, JavaScript, and ReactJS, focused on building responsive,
+                  user-friendly interfaces and transforming ideas into engaging web experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">e-Book Editor</h4>
+
+                <p class="service-item-text">
+                  Ensured seamless eBook user experiences by resolving layout, formatting, and navigation issues using
+                  HTML and CSS.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">React JS</h4>
+
+                <p class="service-item-text">
+                  Currently exploring React.js to enhance my web development skills and deliver dynamic, efficient web
+                  solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  Developing a passion for photography, capturing moments with creativity and attention to detail.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BOUT
+      -->
+
+      <article class="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Courses / Internship</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front end Developement React js &#45; Besant Technologies</h4>
+
+              <span>Mar 2024 &#45; Aug 2024</span>
+
+              <p class="timeline-text">
+                Gained practical knowledge in building dynamic and responsive web applications using ReactJS.<br>Covered
+                components, state management, props, hooks, routing, and integration with APIs</br>
+              </p>
+
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UI Frontend Developer Intern &#45;Ariv Execution</h4>
+
+              <span>Sept 2024 &#45; Feb 2024</span>
+
+              <p class="timeline-text">
+                Completed a 6-month internship focused on frontend developmen<br>Assisted in creating visually appealing
+                and interactive web pages<br>Collaborated with the development team to improve website functionality and
+                user experience.</br></p>
+
+
+              </p>
+
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Bootcamp &#45; Udemy</h4>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nadar Mahajana Sangam S Vellaichamy Nadar College &#45; Madurai</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor of Science &#45; Computer Science &#45; CGPA 7.63
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">St. Joseph Matriculation Higher Secondary School &#45; Madurai</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                Higher Secondary School &#45; Computer Science &#45; Percentage 59.5%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">St. Joseph Matriculation Higher Secondary School &#45; Madurai</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+                Secondary School Leaving Certificate &#45; Percentage 82%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My Frontend Skills</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML5 & CSS3</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript (ES6+)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React JS</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind CSS</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Responsive Design</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git & GitHub</h5>
+                <data value="88">88%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="my works">
+
+        <header>
+          <h2 class="h2 article-title">My Works</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button data-filter-btn="all" class="active">All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="web design">Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="React">React</button>
+            </li>
+
+          </ul>
+
+          <ul class="select-list">
+            <li data-select-item data-category="all">All</li>
+            <li data-select-item data-category="web design">Web design</li>
+            <li data-select-item data-category="react">React</li>
+          </ul>
+
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="React">
+              <a href="https://react-crudoperation-65096e.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*SSdZBBwS99HqZWZ97t7siw.png"style="height: 172.98px;"
+                     alt="Crud Operation - React" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Crud Operation - React</h3>
+
+                <p class="project-category">React</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://sudharsan8121.github.io/Tic-toe/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg"style="height: 172.98px;"  alt="Tic Tac Toe - Web Game"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tic Tac Toe - Web Game</h3>
+                <p class="project-category">web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://sudharsan8121.github.io/Calculator/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" style="height: 172.98px;" alt="Online Calculator App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online Calculator App</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+        </section>
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.108664936483!2d78.0953500747932!3d9.972260790131713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c8bb60b75051%3A0x77c2be854a2e8ea4!2s3%2F49%2C%20Muniyandi%20Kovil%20St%2C%20Sikkandar%20Savadi%2C%20Koodal%20Nagar%2C%20Madurai%2C%20Tamil%20Nadu%20625018!5e1!3m2!1sen!2sin!4v1747462988318!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+
+              <ion-icon name="paper-plane-outline"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
